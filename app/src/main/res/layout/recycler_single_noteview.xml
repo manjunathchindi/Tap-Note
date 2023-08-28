@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:layout_marginVertical="8dp"
+    android:backgroundTint="#60A888"
+    android:background="@drawable/rounded_corner_small">
+
+    <TextView
+        android:id="@+id/note_title_text_viewOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:fontFamily="@font/rubik"
+        android:text="Note title"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/note_content_text_viewOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/archivo"
+        android:maxLines="2"
+        android:text="Content description this can be long as user defines"
+        android:textColor="#E8E6E6"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/note_timestamp_text_viewOnly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:fontFamily="@font/archivo_bold"
+        android:gravity="right"
+        android:text="timestamp"
+        android:textColor="#434341"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

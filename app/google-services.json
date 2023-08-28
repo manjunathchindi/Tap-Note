@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53411690632",
+    "project_id": "tap-notes",
+    "storage_bucket": "tap-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53411690632:android:1fd1bc3cb8e57e3d2e873d",
+        "android_client_info": {
+          "package_name": "com.example.tapnotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53411690632-6csl0qm1m13jrbbvu71irherofanadc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARudbajtj2gmCHApOwQ8KPgVammCUjOIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53411690632-6csl0qm1m13jrbbvu71irherofanadc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
